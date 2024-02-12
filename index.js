@@ -8,6 +8,10 @@ app.get("/",(req,res)=>{
   res.send("<h1>Hello World</h1>");
 })
 
+app.get("/sivasai",(req,res)=>{
+  res.send("Hello Sivasai")
+})
+
 
 app.listen(process.env.PORT,()=>{
   console.log(`Example app listening on port ${process.env.PORT}`)
